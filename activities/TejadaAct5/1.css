@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(240, 236, 236);
+}
+
+.container{
+    background-color: rgb(207, 22, 22);
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.box1{
+    flex: 3; 
+    text-align: right;
+    font-size: 30px;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: black;
+    text-decoration: underline;
+    
+}
+
+.box11{
+    flex: 1;
+}
+
+.box11 img{  
+    border-radius: 100px;
+    width: 100px;
+}
+
+
+
+
+
+.container6{
+    background-color: rgb(218, 210, 145);
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    font-size: large;
+    
+}
+
+.box6{
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.box61 img{
+    border: 400px;
+    width: 400px;
+}
+
+.box61{
+    flex: 1;
+    padding: 10px;
+    text-align: start;
+}
+
+
+.box7 img{
+    border: 600px;
+    width: 600px;
+}
+
+
+
+.container7{
+    display: flex;
+    background-color: rgb(218, 210, 145);
+    padding: 50px;
+    flex-wrap: wrap;
+    
+}
+
+.box7{
+    align-items: center;
+    text-align: center;
+}
+
+.box7 a:hover{
+    color: black;
+    text-decoration: underline;
+    
+}
+
+
+.container5{
+    background-color: rgb(218, 210, 145);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.box51 img{
+    border: 300px;
+    width: 300px;
+}
+
+.box51{
+    flex: 1;
+}
+
+.box5{
+    flex: 3;
+}
+
+.container4{
+    background-color: rgb(207, 22, 22);
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.box4{
+    color: white;
+}
+
+.container3{
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}

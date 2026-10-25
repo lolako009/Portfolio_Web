@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body{
+            text-align: center;
+            margin-top: 75px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: khaki;
+        }
+
+        button{
+            background-color: tan;
+            border: none;
+            padding: 15px 35px;
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+
+        button:hover{
+            transform: scale(1.1);
+            background-color: brown;
+            color: white;
+        }
+
+        .btn{
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            
+        }
+
+        #message{
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .card{
+            border: 2px solid black;
+            border-radius: 15px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Java Script Activity</h1>
+
+        <div class="btn">
+            <button id="button1">
+                1
+            </button>
+
+            <button id="button2">
+                2
+            </button>
+        </div>
+
+        <p id="message">Waiting...</p>
+
+        <p id="profile">Profile</p>
+        <p id="grade">Grade</p>
+        <p id="schedule">Schedule</p>
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>

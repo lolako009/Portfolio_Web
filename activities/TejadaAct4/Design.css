@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+}
+
+.html{
+    scroll-behavior: smooth;
+}
+
+.header{
+    
+    background-color: aqua;
+    text-align: center;
+    padding: 20px;
+}
+
+.navigation{
+    display: flex;
+    background-color: darksalmon;
+    text-align: center;
+    padding: 15px;
+    gap: 120px;
+    justify-content: center;
+}
+
+#navv{
+    color: black;
+    text-decoration: none;
+}
+#navv:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.footer{
+    display: flex;
+    background-color: peru;
+    justify-content: center;
+    padding: 15px; 
+}
+
+
+/* HOME*/
+
+
+.main{
+    display: flex;
+}
+
+#sec{
+    margin: 10px;
+    flex: 3;
+    background-color: khaki;
+    padding: 15px;
+}
+
+#asi{
+    margin: 10px;
+    flex: 1;
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+/*Registration*/
+
+.body{
+    display: flex;
+    background-color: khaki;
+    align-content: center;
+    justify-content: center;
+}
+
+.form{
+    background-color: white;
+    margin: 30px;
+    padding: 15px;
+}
+
+
+
+
+
+
+/*Grades*/
+
+.table{
+   text-align: center;
+   background-color: khaki;
+   justify-content: center;
+}
+
+.table1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 8px solid;
+    align-items: center;
+    margin: 10px;
+}
+
+
+
+
+/* Profile*/
+
+.main1{
+    display: flex;
+    background-color: khaki;
+    margin-bottom: 10px;
+    justify-content: center;
+    
+}
+
+.main2{
+    display: flex;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+.sec1{
+    margin: 10px;
+    background-color: white;
+    padding: 15px;    
+}
+
+.pic{
+    display: flex;
+    border-radius: 360px;
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,558 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    background: #090a0c;
+    font-family: "Inter", Arial, sans-serif;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1300px;
+}
+
+.section{
+    padding: 80px;
+}
+
+/*Yung Header tas Nav*/
+/*---------------------------------------------------------------------------------*/
+
+header{
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+    border-bottom: 1px solid #30343c;
+    background:black;
+    font-weight: 700;
+    color: #d7d7d8;
+}
+
+header span{
+    color: #d9a53a;
+}
+
+nav{
+    display: flex;
+    gap: 28px;
+    font-size: 20px;
+    color: #d7d7d8;
+    font-weight: 700;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #d9a53a;
+}
+
+/*Para Sa HOME*/
+/*---------------------------------------------------------------------------------*/
+
+.home{
+    display: grid;
+    gap: 72px;
+    place-items: center;
+    border-bottom: 1px solid #30343c;
+}
+
+.hometext{
+    display: grid;
+    grid-template-columns: 0.95fr 1.05fr;
+    gap: 72px;
+    align-items: center;
+}
+
+.small{
+    color: #d9a53a;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 2.88px;
+}
+
+.home h1,
+.about h2,
+.activities h2,
+.contact h3{
+    margin: 0;
+    font-weight: 700;
+    color: #d7d7d8;
+}
+
+.home h1{
+    font-size: 115.2px;
+    letter-spacing: -5px;
+}
+
+
+.home h1 span,
+.about h2 span,
+.activities h2 span,
+.contact h3 span{
+    color: #d9a53a;
+}
+
+p{
+    color: #999ca4;
+    max-width: 550px;
+}
+
+.homebuttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.button{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #30343c;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.button:hover{
+    transform: scale(1.1);
+}
+
+.activitybtn{
+    color: black;
+    background: #d9a53a;
+}
+
+.activitybtn:hover{
+    color: black;
+}
+
+.aboutmebtn{
+    color: #d7d7d8;
+}
+
+.aboutmebtn:hover{
+    border-color: #d9a53a;
+}
+
+.profilecard{
+    display: grid;
+    grid-template-columns: 190px 1fr;
+    gap: 28px;
+    padding: 32px;
+    border: 1px solid #30343c;
+    background: #17191e;
+}
+
+.icon{
+    aspect-ratio: 1;
+}
+
+.icon img{
+    border: 1px solid #30343c;
+    box-shadow: 0 24px 80px rgba(0, 0, 0, 0.32);
+}
+
+.icon img{
+    width: 100%;
+    height: 100%;
+}
+
+.profiletext h2{
+    color: #d7d7d8;
+}
+
+.profiletext h3{
+    color: #d7d7d8;
+    margin: 0;
+    font-weight: 600;
+}
+
+.profiletext p{
+    color: #999ca4;
+    font-size: 15px;
+}
+
+/*About me na prt*/
+/*---------------------------------------------------------------------------------*/
+.hello{
+    color: #d9a53a;
+}
+
+.about{
+    border-bottom: 1px solid #30343c;
+}
+
+.abouttext{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 36px;
+}
+
+.aboutcontainer{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.aboutcontainer section{
+    flex: 3;
+    border-radius: 10px;
+    background: #17191e;
+    padding: 20px;
+    border: 1px solid #30343c;
+}
+
+.aboutcontainer aside{
+    flex: 1;
+    border-radius: 10px;
+    background: #17191e;
+    padding: 20px;
+    border: 1px solid #30343c;
+}
+
+.aboutcontainer section h2{
+    font-size: 40px;
+}
+
+.aboutcontainer aside h2{
+    font-size: 40px;
+}
+
+.aboutcontainer aside li{
+    color: #999ca4;
+}
+
+.aboutcontainer section:hover{
+    transform: scale(1.1);
+    background: #111317;
+}
+
+.aboutcontainer aside:hover{
+    transform: scale(1.1);
+    background: #111317;
+}
+
+/*Activity Dito*/
+/*---------------------------------------------------------------------------------*/
+
+.activities{
+    border-bottom: 1px solid #30343c;
+}
+
+.acttext{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 36px;
+}
+
+.about h2,
+.activities h2{
+    font-size: 73px;
+}
+
+.actcontainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.activitycard{
+    border:  1px solid #30343c;
+    background: #17191e;
+}
+
+.activitycard:hover{
+    transform: scale(1.1);
+    background: #111317;
+    text-decoration: none;
+    border-color: #d9a53a;
+}
+
+.actbox{
+    padding: 22px;
+}
+
+.actbox h3{
+    color: #d7d7d8;
+    font-size: 25px;
+}
+
+.boxlink{
+    color: #d7d7d8;
+}
+
+
+
+/*Contact Ko*/
+/*---------------------------------------------------------------------------------*/
+
+.contact{
+    border-bottom: 1px solid #30343c;
+    padding: 20px;
+}
+
+.contacttext{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 36px;
+}
+
+.contact h2{
+    font-size: 40px;
+    color: #d7d7d8;
+}
+
+.here{
+    display: flex;
+    gap: 20px;
+}
+
+.here li{
+    color:#d7d7d8
+}
+
+.here ul{
+    color: #d9a53a;
+}
+
+.con1{
+    flex: 1;
+    background: #17191e;
+    border: 1px solid #30343c;
+    border-radius: 10px;
+    padding: 20px;
+}
+.con2{
+    flex: 1;
+    background: #17191e;
+    border: 1px solid #30343c;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+
+/*Contact Ko*/
+/*---------------------------------------------------------------------------------*/
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #999ca4;
+    font-size: 16px;
+}
+
+footer a{
+    color: #d9a53a;
+    font-weight: 700;
+}
+
+
+
+/*For Mobile Responsiveness*/
+
+/* =========================
+   MOBILE RESPONSIVE
+   ========================= */
+
+@media (max-width: 768px){
+
+    /* General */
+    .container{
+        width: 90%;
+    }
+
+    .section{
+        padding: 60px 0;
+    }
+
+
+    /* Header */
+    header{
+        position: sticky;
+        top: 0;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 10px;
+    }
+
+    nav{
+        gap: 15px;
+        font-size: 13px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    /* Home */
+    .hometext{
+        grid-template-columns: 1fr;
+        gap: 40px;
+        text-align: center;
+    }
+
+    .home h1{
+        font-size: 60px;
+        letter-spacing: -3px;
+    }
+
+    .hometext p{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .homebuttons{
+        justify-content: center;
+    }
+
+    .button{
+        padding: 16px;
+    }
+
+
+    /* Profile */
+    .profilecard{
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .icon{
+        width: 150px;
+        margin: auto;
+    }
+
+
+    /* About */
+    .abouttext{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about h2,
+    .activities h2{
+        font-size: 45px;
+    }
+
+    .aboutcontainer{
+        flex-direction: column;
+    }
+
+    .aboutcontainer section,
+    .aboutcontainer aside{
+        width: 100%;
+    }
+
+    .aboutcontainer section:hover,
+    .aboutcontainer aside:hover{
+        transform: none;
+    }
+
+
+    /* Activities */
+    .acttext{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .actcontainer{
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .activitycard:hover{
+        transform: none;
+    }
+
+
+    /* Contact */
+    .contact{
+        padding: 60px 0;
+    }
+
+    .contacttext{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .here{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .con1,
+    .con2{
+        width: 100%;
+        margin: 0;
+    }
+
+
+    /* Footer */
+    footer{
+        width: 90%;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 20px 0;
+    }
+}
+
+@media (max-width: 480px){
+
+    .home h1{
+        font-size: 45px;
+    }
+
+    .about h2,
+    .activities h2{
+        font-size: 36px;
+    }
+
+    .navigation{
+        gap: 10px;
+    }
+
+    nav{
+        font-size: 11px;
+    }
+
+    .profilecard{
+        padding: 20px;
+    }
+
+    .profiletext h2{
+        font-size: 20px;
+    }
+
+    .profiletext p{
+        font-size: 13px;
+    }
+
+    .aboutcontainer section h2,
+    .aboutcontainer aside h2{
+        font-size: 30px;
+    }
+}
+

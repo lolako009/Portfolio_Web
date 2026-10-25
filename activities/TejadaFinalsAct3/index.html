@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+    <style>
+        body{
+            padding: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightskyblue;
+        }
+
+        .card{
+            text-align: center;
+            background-color: white;
+            margin: auto;
+            padding: 20px;
+            border-radius: 15px;
+            border: 3px solid black;
+        }
+
+        .stud, .cour{
+            text-align: left;
+            background-color: lightblue;
+            margin: auto;
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+
+        button{
+            background-color: dimgray;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 15px;
+            color: white;
+        }
+
+        button:hover{
+            transform: scale(1.1);
+        }
+
+
+        table{
+            border: 1px solid black;
+            height: 200px;
+            width: 500px;
+            text-align: center;
+        }
+
+        select{
+            width: 100%;
+            padding: 20px;
+            display: flex;
+            text-wrap: wrap;
+        }
+
+        
+    </style>
+
+<body>
+
+    <div class="card">
+        <h1 id="title">My Student Profile</h1>
+        <p>Welcome to my information profile</p>
+
+        <div class="stud" id="card1">
+            <h3>Student information</h3>
+            <p>Name: Juan Dela Cruz</p>
+            <p id="courmess">Course: BSIT</p>
+            <p>Yearlevel: 3rd Year</p>
+        </div>
+
+        <br>
+
+        <button id="btn1">Change Title</button>
+        <button id="btn2">Hide Profile</button>
+        <button id="btn3">Show Profile</button>
+
+        <p id="message"> Status: Waiting...</p>
+
+        <br><br>
+
+        <div class="cour" id="card1">
+            <h3>Choose your course</h3>
+    
+            <br><br>
+
+            <select id="course">
+                <option value="" selected disabled>Select Course</option>
+                <option value="BSIT">BSIT</option>
+                <option value="BSCS">BSCS</option>
+                <option value="BSHM">BSHM</option>
+            </select>
+
+            <p id="message2"> Selected Course: </p>
+        </div>
+
+        <br><br>
+
+        <h3>Student List</h3>
+        <p>Registered Students</p>
+
+        <center>
+            <table id="table">
+                <tr>
+                    <th>NO</th>
+                    <th>NAME</th>
+                    <th>COURSE</th>
+                    <th>YEAR LEVEL</th>
+                </tr>
+    
+                <tr>
+                    <td>1</td>
+                    <td>Ken</td>
+                    <td>BSIT</td>
+                    <td>3rd Year</td>
+                </tr>
+    
+                <tr>
+                    <td>2</td>
+                    <td>Justin</td>
+                    <td>BSCS</td>
+                    <td>2nd Year</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Rene</td>
+                    <td>BSHM</td>
+                    <td>4th Year</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>ButterBo</td>
+                    <td>BSIT</td>
+                    <td>1st Year</td>
+                </tr>
+            </table>
+        </center>
+
+        <br><br>
+
+        <button id="btnodd">Odd</button>
+        <button id="btneven">Even</button>
+        <button id="btnhide">Hide</button>
+        <button id="btnshow">Show</button>
+
+        <p id="message3"> Table Status: </p>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
